@@ -17,7 +17,7 @@ struct ContentView: View {
                 .tabItem {
                     Label("Feed", systemImage: "house")
                 }
-            Color.white
+            LogInView()
                 .tabItem {
                     Label("Profile", systemImage: "person")
                 }
