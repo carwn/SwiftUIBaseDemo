@@ -8,14 +8,33 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var selectedTab: String = "profile"
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        TabView(selection: $selectedTab) {
+            Color.white
+                .tabItem {
+                    Label("Feed", systemImage: "house")
+                }
+            Color.white
+                .tabItem {
+                    Label("Profile", systemImage: "person")
+                }
+                .tag("profile")
+            Color.white
+                .tabItem {
+                    Label("Player", systemImage: "music.note")
+                }
+            Color.white
+                .tabItem {
+                    Label("Video", systemImage: "play.rectangle")
+                }
+            Color.white
+                .tabItem {
+                    Label("Recorder", systemImage: "mic")
+                }
         }
-        .padding()
     }
 }
 
