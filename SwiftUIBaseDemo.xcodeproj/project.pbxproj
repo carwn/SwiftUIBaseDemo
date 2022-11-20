@@ -11,6 +11,7 @@
 		6DB64381292A329D00D3985A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB64380292A329D00D3985A /* ContentView.swift */; };
 		6DB64383292A329E00D3985A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DB64382292A329E00D3985A /* Assets.xcassets */; };
 		6DB64386292A329E00D3985A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DB64385292A329E00D3985A /* Preview Assets.xcassets */; };
+		6DB64394292A8BFD00D3985A /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB64393292A8BFD00D3985A /* LogInView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		6DB64380292A329D00D3985A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6DB64382292A329E00D3985A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6DB64385292A329E00D3985A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6DB64393292A8BFD00D3985A /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				6DB6437E292A329D00D3985A /* SwiftUIBaseDemoApp.swift */,
 				6DB64380292A329D00D3985A /* ContentView.swift */,
+				6DB64393292A8BFD00D3985A /* LogInView.swift */,
 				6DB64382292A329E00D3985A /* Assets.xcassets */,
 				6DB64384292A329E00D3985A /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DB64394292A8BFD00D3985A /* LogInView.swift in Sources */,
 				6DB64381292A329D00D3985A /* ContentView.swift in Sources */,
 				6DB6437F292A329D00D3985A /* SwiftUIBaseDemoApp.swift in Sources */,
 			);
